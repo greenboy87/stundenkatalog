@@ -1,0 +1,6 @@
+*.pdf
+*.doc
+*.docx
+*.csv
+*.pptx
+.DS_Store
