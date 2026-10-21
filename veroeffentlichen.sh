@@ -10,7 +10,7 @@ git pull --ff-only
 
 python3 "$KATALOG/katalog_aktualisieren.py" --repo "$REPO"
 
-git add index.html
+git add index.html katalog.json
 if git diff --cached --quiet; then
   echo "Keine Änderungen – nichts zu veröffentlichen."
 else
